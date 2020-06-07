@@ -102,7 +102,7 @@ changes to that scene will affect all instances.
 You can also adjust individual instances. Set the bounce value back to ``0``
 and then in the ``Main`` scene, select one of the instanced balls. Resources
 like ``PhysicsMaterial`` are shared between instances by default, so we need
-to make it unique. Click on the down arrow and select "Make Unique". Set its
+to make it unique. In the Inspector window, click on the dropdown to the right of the "Physics Material Override" property and select "Make Unique". Set its
 ``Bounce`` to ``1`` and press "Play".
 
 .. image:: img/instancing_property.png
