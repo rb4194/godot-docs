@@ -22,7 +22,7 @@ own limitations:
 
 The `Singleton Pattern <https://en.wikipedia.org/wiki/Singleton_pattern>`_ is
 a useful tool for solving the common use case where you need to store
-persistent information between scenes. In our case it is possible re-use the
+persistent information between scenes. In our case it is possible to re-use the
 same scene or class for multiple singletons, so long as they have different
 names.
 
